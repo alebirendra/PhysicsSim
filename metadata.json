@@ -1,0 +1,6 @@
+{
+  "name": "PhysiCraft - Physics Problem to Live Simulation Engine",
+  "description": "Transform any physics word problem into an interactive simulation with synchronized governing equations, parameter sliders, dynamic plots, and predictive measurements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
