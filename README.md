@@ -105,6 +105,28 @@ npm start
 
 ---
 
+## 🎈 Streamlit Deployment (`main.py`)
+
+A complete standalone Streamlit edition is included in `main.py` for deployment to **Streamlit Community Cloud** or local Python environments.
+
+### Running via Streamlit:
+
+1. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Run the Streamlit application:
+   ```bash
+   streamlit run main.py
+   ```
+3. To deploy to **Streamlit Community Cloud**:
+   - Push this repository to GitHub.
+   - Go to [share.streamlit.io](https://share.streamlit.io) and create a new app.
+   - Set the main file path to `main.py` and deploy.
+
+
+---
+
 ## 🧪 Unit Testing Details
 
 Core physics models are decoupled from UI components in `src/physics/` and verified with deterministic tests:
